@@ -22,49 +22,6 @@
         position: relative;
         margin: auto;
       }
-      /* Next & Previous Buttons */
-      .prev
-      {
-        cursor: pointer;
-        position: absolute;
-        top: 50%;
-        left: 25%;
-        width: auto;
-        padding: 12px;
-        margin-top: -22px;
-        color: white;
-        font-weight: bold;
-        font-size: 18px;
-        transition: 0.6s ease;
-        border-radius: 0 3px 3px 0;
-        user-select: none;
-      }
-      .next
-      {
-        cursor: pointer;
-        position: absolute;
-        top: 20%;
-        width: auto;
-        padding: 12px;
-        margin-top: -22px;
-        color: white;
-        font-weight: bold;
-        font-size: 18px;
-        transition: 0.6s ease;
-        border-radius: 3px 0 0 3px;
-        user-select: none;
-      }
-      /* Position the "Next Button" to the Right (Prev is Already Auto-Positioned to the Left) 
-      .next
-      {
-        left: -25%;
-        border-radius: 3px 0 0 3px;
-      }*/
-      /* On Hover, Add a Black Background Color With a Little Bit See-Through */
-      .prev:hover, .next:hover
-      {
-        background-color: rgba(0,0,0,0.8);
-      }
       /* Caption Text */
       .text
       {
@@ -147,13 +104,6 @@
         <div class="numbertext">5 / 5</div>
         <img src="https://static01.nyt.com/images/2019/03/10/travel/00PTG-ONTARIO-slide-6Z48/10PTG-ONTARIO-slide-6Z48-jumbo.jpg" style="width:50%">
         <div class="text">The Shores of Lake Superior</div>
-      </div>
-      <a class="prev" onclick="plusSlides(-1)">❮</a>
-      <div style = "position: relative; top: 20%">
-        <div style = "position: relative; left: 22.5%;">
-          <a class="next" onclick="plusSlides(1)">❯</a>
-        </div>
-      </div>
     </div>
     <br>
     <div style="text-align:center">
